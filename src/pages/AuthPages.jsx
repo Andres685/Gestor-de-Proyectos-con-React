@@ -51,7 +51,7 @@ export default function AuthPages({onAuthSuccess}){
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="email" className="form-label">
-              Correo electrónico
+              Email
             </label>
             <input
               type="email"
@@ -66,7 +66,7 @@ export default function AuthPages({onAuthSuccess}){
 
           <div className="mb-3">
             <label htmlFor="password" className="form-label">
-              Contraseña
+              password
             </label>
             <input
               type="password"
